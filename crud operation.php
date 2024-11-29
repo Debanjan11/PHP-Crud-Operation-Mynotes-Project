@@ -9,7 +9,7 @@ $username = "root";
 $password = "";
 $database = "crud notes";
 
-$con = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database);
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
